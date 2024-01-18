@@ -22,4 +22,4 @@ def even_or_not(name):
             break
 
     if correct_answers == 3:
-        print('Congratulations,', name)
+        print(f"Congratulations, {name}!")
