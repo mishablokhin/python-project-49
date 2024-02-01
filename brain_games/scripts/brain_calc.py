@@ -7,6 +7,7 @@ from brain_games.games.calc import calculator
 def main():
     greeting, name = welcome_user()
     print(greeting)
+    print('What is the result of the expression?')
     run_game(calculator)
 
 
