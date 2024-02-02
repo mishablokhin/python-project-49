@@ -14,3 +14,6 @@ asciinema record: brain-gcd
 
 asciinema record: brain-progression
 [![asciicast](https://asciinema.org/a/ypTtodWMv2VVAOD1pb2pxzWxP.svg)](https://asciinema.org/a/ypTtodWMv2VVAOD1pb2pxzWxP)
+
+asciinema record: brain-prime
+[![asciicast](https://asciinema.org/a/Qgztv11NFdFodOeC4W0J8BPAf.svg)](https://asciinema.org/a/Qgztv11NFdFodOeC4W0J8BPAf)
