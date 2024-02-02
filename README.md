@@ -8,3 +8,6 @@ asciinema record: brain-even
 
 asciinema record: brain-calc
 [![asciicast](https://asciinema.org/a/FxOGrkS8hQiZ6AxyajMpRMbej.svg)](https://asciinema.org/a/FxOGrkS8hQiZ6AxyajMpRMbej)
+
+asciinema record: brain-gcd
+[![asciicast](https://asciinema.org/a/CGqXXNjjptf8BiyHS6lCAhBaI.svg)](https://asciinema.org/a/CGqXXNjjptf8BiyHS6lCAhBaI)
