@@ -8,7 +8,7 @@ def main():
     greeting, name = welcome_user()
     print(greeting)
     print('What number is missing in the progression?')
-    run_game(progression)
+    run_game(progression, name)
 
 
 if __name__ == '__main__':

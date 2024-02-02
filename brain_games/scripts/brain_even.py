@@ -8,7 +8,7 @@ def main():
     greeting, name = welcome_user()
     print(greeting)
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    run_game(even_or_not)
+    run_game(even_or_not, name)
 
 
 if __name__ == '__main__':

@@ -8,7 +8,7 @@ def main():
     greeting, name = welcome_user()
     print(greeting)
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    run_game(is_prime)
+    run_game(is_prime, name)
 
 
 if __name__ == '__main__':

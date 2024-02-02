@@ -1,4 +1,4 @@
-def run_game(game_name):
+def run_game(game_name, user_name):
     correct_answers = 0
     while correct_answers < 3:
         question, correct_answer = game_name()
@@ -11,7 +11,7 @@ def run_game(game_name):
         else:
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'.")
-            print("Let's try again")
+            print(f"Let's try again, {user_name}!")
             return
 
-    print("Congratulations, you've won!")
+    print(f"Congratulations, {user_name}!")

@@ -8,7 +8,7 @@ def main():
     greeting, name = welcome_user()
     print(greeting)
     print('Find the greatest common divisor of given numbers.')
-    run_game(greatest_common_divisor)
+    run_game(greatest_common_divisor, name)
 
 
 if __name__ == '__main__':

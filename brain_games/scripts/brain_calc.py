@@ -8,7 +8,7 @@ def main():
     greeting, name = welcome_user()
     print(greeting)
     print('What is the result of the expression?')
-    run_game(calculator)
+    run_game(calculator, name)
 
 
 if __name__ == '__main__':
