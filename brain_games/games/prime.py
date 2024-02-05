@@ -1,22 +1,22 @@
 from random import randint
 
 
-def is_prime():
-    question = randint(2, 3571)
-    if question in get_primes_up_to_3571():
-        correct_answer = 'yes'
-    else:
-        correct_answer = 'no'
+def is_prime(question):
+    if question <= 1:
+        return False
+    if question <= 3:
+        return True
+    if question % 2 == 0 or question % 3 == 0:
+        return False
+    i = 5
+    while i * i <= question:
+        if question % i == 0 or question % (i + 2) == 0:
+            return False
+        i += 6
+    return True
+
+
+def generate_question_and_answer():
+    question = randint(1, 100)
+    correct_answer = 'yes' if is_prime(question) else 'no'
     return question, correct_answer
-
-
-def get_primes_up_to_3571():
-    limit = 3571
-    primes = []
-    sieve = [True] * (limit + 1)
-    for num in range(2, limit + 1):
-        if sieve[num]:
-            primes.append(num)
-            for multiple in range(num * num, limit + 1, num):
-                sieve[multiple] = False
-    return primes
