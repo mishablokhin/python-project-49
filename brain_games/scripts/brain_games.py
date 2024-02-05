@@ -3,8 +3,7 @@ from brain_games.cli import welcome_user
 
 
 def main():
-    greeting, _ = welcome_user()
-    print(greeting)
+    welcome_user()
 
 
 if __name__ == '__main__':
