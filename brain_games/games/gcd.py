@@ -2,7 +2,10 @@ from random import randint
 from math import gcd
 
 
-def greatest_common_divisor():
+HELP_TEXT = 'Find the greatest common divisor of given numbers.'
+
+
+def generate_game_data():
     a = randint(1, 100)
     b = randint(1, 100)
     question = f"{a} {b}"

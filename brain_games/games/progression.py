@@ -1,7 +1,10 @@
 from random import randint
 
 
-def progression():
+HELP_TEXT = 'What number is missing in the progression?'
+
+
+def generate_game_data():
     progression_start = randint(1, 20)
     progression_difference = randint(1, 10)
     progression_length = randint(5, 10)

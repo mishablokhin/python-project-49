@@ -1,6 +1,8 @@
 import random
 from random import randint
 
+HELP_TEXT = 'What is the result of the expression?'
+
 
 def calculate(a, b, operation):
     if operation == '+':
@@ -11,7 +13,7 @@ def calculate(a, b, operation):
         return a * b
 
 
-def calculator():
+def generate_game_data():
     operations = ['+', '-', '*']
     a = randint(1, 25)
     b = randint(1, 25)
